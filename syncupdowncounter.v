@@ -21,5 +21,5 @@ module syncupdowncounter(input clk,mode, output reg [3:0]y);
             y<=y-1;
         end
     end
- 
+ //0 means down count and 1 means up count
 endmodule
